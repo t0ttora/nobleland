@@ -1,0 +1,1 @@
+Place 1.jpg, 2.jpg, 3.jpg, 4.jpg here for the hero avatar stack. Suggested size: 64x64 or 96x96 for crisp rendering.
