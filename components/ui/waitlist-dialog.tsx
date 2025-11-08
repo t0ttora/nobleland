@@ -9,7 +9,7 @@ import Aurora from "@/app/noblesuite/components/aurora";
 import { cn } from "@/lib/utils";
 import { Check, ChevronsUpDown, Factory, Truck, BriefcaseBusiness, Ship, Warehouse, PackageSearch, MoreHorizontal, Rocket, Sparkles, Lightbulb, MessageSquareQuote } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
+import { Command, /* CommandEmpty */ CommandGroup, /* CommandInput */ CommandItem, CommandList } from "@/components/ui/command";
 
 export type WaitlistPayload = {
   email: string;

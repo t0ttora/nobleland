@@ -13,7 +13,7 @@ import PlatformPillarsSection from "./(home)/components/platform-pillars-section
 // Static waitlist label (reverted to a stable starting value)
 import CallToAction from "@/components/call-to-action";
 import Footer from "@/components/footer";
-import Image from "next/image";
+// Removed unused import Image from "next/image" to satisfy eslint @typescript-eslint/no-unused-vars
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const inter = Inter({ subsets: ["latin"] });
