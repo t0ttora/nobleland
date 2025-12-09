@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Footer from "@/components/footer";
 import CallToAction from "@/components/call-to-action";
-import { Shield, Lock, FileCheck, Eye, Globe, Server } from "lucide-react";
+import { Lock, FileCheck, Eye, Globe, Server } from "lucide-react";
 
 export default function SecurityPage() {
   return (
@@ -212,7 +212,7 @@ function GridCard({ icon, title, desc }: { icon: React.ReactNode, title: string,
   return (
     <div className="bg-black p-12 hover:bg-zinc-900/50 transition-colors duration-500 group">
       <div className="text-zinc-600 mb-6 group-hover:text-[#ff5a26] transition-colors">
-  {/* @ts-expect-error */}
+  {/* @ts-expect-error: icon may not be a ReactElement, we annotate expected error for cloneElement */}
         {React.cloneElement(icon as React.ReactElement, { size: 32 })}
       </div>
       <h3 className="text-xl font-medium text-white mb-4">{title}</h3>

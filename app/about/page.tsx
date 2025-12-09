@@ -215,7 +215,7 @@ export default function AboutPage() {
                         </p>
                       </div>
                       <blockquote className="border-l-2 border-[#ff5a26] pl-6 py-2">
-                        <p className="text-2xl font-light italic text-white/80">"{founder.quote}"</p>
+                        <p className="text-2xl font-light italic text-white/80">&quot;{founder.quote}&quot;</p>
                       </blockquote>
                     </div>
                   </div>

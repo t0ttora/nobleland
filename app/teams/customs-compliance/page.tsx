@@ -59,7 +59,7 @@ export default function CustomsCompliancePage() {
                 variants={fadeIn}
                 className="mt-6 text-lg text-zinc-500 leading-relaxed pl-6"
               >
-                NobleVerse eliminates "missing document" crises and manual data entry errors, transforming your operations from a reactive firefighting process into a proactive and digital flow.
+                NobleVerse eliminates &quot;missing document&quot; crises and manual data entry errors, transforming your operations from a reactive firefighting process into a proactive and digital flow.
               </motion.p>
             </div>
           </motion.div>
