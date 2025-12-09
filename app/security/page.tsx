@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 import Footer from "@/components/footer";
 import CallToAction from "@/components/call-to-action";
 import { Shield, Lock, FileCheck, Eye, Globe, Server } from "lucide-react";
@@ -53,7 +53,7 @@ export default function SecurityPage() {
           >
             <div className="md:col-span-5">
                <p className="text-xl text-zinc-400 font-light leading-relaxed">
-                Security at NobleVerse isn't a feature—it's the foundation. We protect the currency of global trade with Swiss-grade privacy and military-grade encryption.
+                Security at NobleVerse isn&apos;t a feature—it&apos;s the foundation. We protect the currency of global trade with Swiss-grade privacy and military-grade encryption.
               </p>
             </div>
             <div className="md:col-span-7 flex flex-col md:flex-row gap-12 md:items-end md:justify-end">
@@ -83,12 +83,12 @@ export default function SecurityPage() {
               <span className="text-[#ff5a26] font-mono text-sm mb-8 block">01 — ENCRYPTION</span>
               <h2 className="text-4xl md:text-6xl font-medium mb-8 tracking-tight">The Digital Vault</h2>
               <p className="text-xl text-zinc-500 font-light leading-relaxed mb-12">
-                We don't just store data; we seal it. Every invoice, contract, and customs document is locked behind AES-256 encryption. Your data remains yours, opaque to us and invisible to the world.
+                We don&apos;t just store data; we seal it. Every invoice, contract, and customs document is locked behind AES-256 encryption. Your data remains yours, opaque to us and invisible to the world.
               </p>
               <ul className="space-y-6">
                 <ListItem title="At Rest & In Transit" desc="End-to-end TLS protection against interception." />
                 <ListItem title="Row Level Security" desc="Database isolation ensures strict data segregation." />
-                <ListItem title="Zero Knowledge" desc="Architecture designed so we can't see your raw data." />
+                <ListItem title="Zero Knowledge" desc="Architecture designed so we can&apos;t see your raw data." />
               </ul>
             </div>
 
@@ -212,7 +212,7 @@ function GridCard({ icon, title, desc }: { icon: React.ReactNode, title: string,
   return (
     <div className="bg-black p-12 hover:bg-zinc-900/50 transition-colors duration-500 group">
       <div className="text-zinc-600 mb-6 group-hover:text-[#ff5a26] transition-colors">
-        {/* @ts-ignore */}
+  {/* @ts-expect-error */}
         {React.cloneElement(icon as React.ReactElement, { size: 32 })}
       </div>
       <h3 className="text-xl font-medium text-white mb-4">{title}</h3>

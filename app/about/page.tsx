@@ -1,12 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Footer from "@/components/footer";
 import CallToAction from "@/components/call-to-action";
 import Image from "next/image";
-import { ArrowUpRight, Plus } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { ArrowUpRight } from "lucide-react";
 
 const founders = [
   {
@@ -139,7 +138,7 @@ export default function AboutPage() {
             </p>
             <p>
               What if you could see every shipment, every document, and every dollar in a single, 
-              unified interface? What if the software didn't just record what happened, but predicted 
+              unified interface? What if the software didn&apos;t just record what happened, but predicted 
               what would happen next?
             </p>
             <p>

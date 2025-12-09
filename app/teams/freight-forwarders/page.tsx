@@ -2,20 +2,8 @@
 
 import React from "react";
 import { motion, Variants } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import Footer from "@/components/footer";
 import CallToAction from "@/components/call-to-action";
-import { 
-  Globe, 
-  Zap, 
-  Users, 
-  FileCheck, 
-  MessageSquare, 
-  ArrowRight,
-  CheckCircle2,
-  LayoutDashboard,
-  Radio
-} from "lucide-react";
 
 const fadeIn: Variants = {
   hidden: { opacity: 0, y: 20 },
