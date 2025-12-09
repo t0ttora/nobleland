@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardFooter } from '@/components/ui/card'
 import { Ship, Route, ShieldCheck } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 // import { ReactNode } from 'react'
 
 export default function MarketplaceAudienceFeatures() {
@@ -30,7 +31,9 @@ export default function MarketplaceAudienceFeatures() {
 
                         <CardFooter className="mt-auto pt-4 pb-6">
                             <div className="mx-auto">
-                                <Button variant="outline" size="sm">Learn more</Button>
+                                <Button asChild variant="outline" size="sm">
+                                    <Link href="/teams/shippers-manufacturers">Learn more</Link>
+                                </Button>
                             </div>
                         </CardFooter>
                     </div>
@@ -53,7 +56,9 @@ export default function MarketplaceAudienceFeatures() {
 
                         <CardFooter className="mt-auto pt-4 pb-6">
                             <div className="mx-auto">
-                                <Button variant="outline" size="sm">Learn more</Button>
+                                <Button asChild variant="outline" size="sm">
+                                    <Link href="/teams/freight-forwarders">Learn more</Link>
+                                </Button>
                             </div>
                         </CardFooter>
                     </div>
@@ -76,7 +81,9 @@ export default function MarketplaceAudienceFeatures() {
 
                         <CardFooter className="mt-auto pt-4 pb-6">
                             <div className="mx-auto">
-                                <Button variant="outline" size="sm">Learn more</Button>
+                                <Button asChild variant="outline" size="sm">
+                                    <Link href="/teams/customs-compliance">Learn more</Link>
+                                </Button>
                             </div>
                         </CardFooter>
                     </div>
