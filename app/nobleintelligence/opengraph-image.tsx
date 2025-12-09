@@ -1,5 +1,7 @@
 import { ImageResponse } from 'next/og'
 
+export const runtime = 'nodejs'
+
 export default function Image() {
   const width = 1200
   const height = 630
@@ -12,7 +14,7 @@ export default function Image() {
         <div style={{ position: 'absolute', left: -120, bottom: -120, width: 500, height: 500, background: accent, borderRadius: 9999, filter: 'blur(120px)', opacity: 0.25 }} />
         <div style={{ position: 'absolute', right: -120, bottom: -120, width: 500, height: 500, background: accent, borderRadius: 9999, filter: 'blur(120px)', opacity: 0.25 }} />
         <div style={{ display: 'flex', flexDirection: 'column', gap: 24, padding: 64 }}>
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: 12, color: fg, fontSize: 24, opacity: 0.9 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, color: fg, fontSize: 24, opacity: 0.9 }}>
             <div style={{ width: 10, height: 10, background: accent, borderRadius: 9999, boxShadow: `0 0 24px ${accent}` }} />
             <span style={{ letterSpacing: 6, textTransform: 'uppercase' }}>NobleIntelligence</span>
           </div>

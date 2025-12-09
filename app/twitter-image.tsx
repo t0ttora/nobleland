@@ -1,5 +1,7 @@
 import { ImageResponse } from 'next/og'
 
+export const runtime = 'nodejs'
+
 // 1200x600 Twitter card image (summary_large_image)
 export default function Image() {
   const width = 1200
@@ -53,7 +55,7 @@ export default function Image() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: 20, padding: 56 }}>
           <div
             style={{
-              display: 'inline-flex',
+              display: 'flex',
               alignItems: 'center',
               gap: 10,
               color: fg,

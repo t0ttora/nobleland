@@ -1,5 +1,7 @@
 import { ImageResponse } from 'next/og'
 
+export const runtime = 'nodejs'
+
 // 1200x630 Open Graph image generated at request time
 export default function Image() {
   const width = 1200
@@ -55,7 +57,7 @@ export default function Image() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: 24, padding: 64 }}>
           <div
             style={{
-              display: 'inline-flex',
+              display: 'flex',
               alignItems: 'center',
               gap: 12,
               color: fg,
