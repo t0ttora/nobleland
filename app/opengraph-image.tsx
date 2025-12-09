@@ -1,7 +1,5 @@
 import { ImageResponse } from 'next/og'
 
-export const runtime = 'edge'
-
 // 1200x630 Open Graph image generated at request time
 export default function Image() {
   const width = 1200

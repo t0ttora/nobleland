@@ -1,7 +1,5 @@
 import { ImageResponse } from 'next/og'
 
-export const runtime = 'edge'
-
 // 1200x600 Twitter card image (summary_large_image)
 export default function Image() {
   const width = 1200
