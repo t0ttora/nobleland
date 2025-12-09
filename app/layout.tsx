@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { NobleNav } from "@/components/ui/header";
 import { Toaster } from "sonner";
-import GlobalLoader from "@/components/ui/global-loader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -72,7 +71,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <GlobalLoader />
         <NobleNav />
         <div className="pt-20">{children}</div>
         <Toaster theme="dark" position="bottom-right" />
