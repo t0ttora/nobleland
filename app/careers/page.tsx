@@ -33,7 +33,7 @@ export default function CareersPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
             <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-xl">
-              Logistics is a $4 trillion industry managed by yesterday's tools. We aren't just writing code; we are rebuilding the nervous system of global trade. Are you ready to join a revolution that connects continents?
+              Logistics is a $4 trillion industry managed by yesterday&apos;s tools. We aren&apos;t just writing code; we are rebuilding the nervous system of global trade. Are you ready to join a revolution that connects continents?
             </p>
             <div className="flex gap-4 md:justify-end">
                <button className="bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-[#ff5a26] hover:text-white transition-colors duration-300">
@@ -62,7 +62,7 @@ export default function CareersPage() {
               </div>
               <h3 className="text-2xl font-medium mb-4">Growth Engine for Forwarders</h3>
               <p className="text-zinc-500 leading-relaxed mb-6">
-                We are breaking down walls. With our "Mini Marketplace", forwarders don't just move cargo; they bid on thousands of new loads. Your code opens new revenue streams for businesses.
+                We are breaking down walls. With our &quot;Mini Marketplace&quot;, forwarders don&apos;t just move cargo; they bid on thousands of new loads. Your code opens new revenue streams for businesses.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ export default function CareersPage() {
               </div>
               <h3 className="text-2xl font-medium mb-4">Human-Centric Network</h3>
               <p className="text-zinc-500 leading-relaxed mb-6">
-                Technology doesn't have to be cold. Our Unified Communication Platform lets shippers talk to suppliers globally as if they were in the same room. You build the bridge.
+                Technology doesn&apos;t have to be cold. Our Unified Communication Platform lets shippers talk to suppliers globally as if they were in the same room. You build the bridge.
               </p>
             </div>
 
@@ -84,7 +84,7 @@ export default function CareersPage() {
               </div>
               <h3 className="text-2xl font-medium mb-4">Learn Fast, Ship Faster</h3>
               <p className="text-zinc-500 leading-relaxed mb-6">
-                Startup spirit meets enterprise scale. With our ESOP program, you are an owner. AI isn't just a feature here; with NoblePilot, it's your teammate.
+                Startup spirit meets enterprise scale. With our ESOP program, you are an owner. AI isn&apos;t just a feature here; with NoblePilot, it&apos;s your teammate.
               </p>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function CareersPage() {
                 <h3 className="text-3xl font-medium">Growth & Ops</h3>
               </div>
               <p className="text-zinc-500 text-lg leading-relaxed mb-8">
-                The force bringing technology to the field. We soothe "digitalization pains" and perfect product-market fit through pilot programs.
+                The force bringing technology to the field. We soothe &quot;digitalization pains&quot; and perfect product-market fit through pilot programs.
               </p>
               <div className="flex gap-3 flex-wrap">
                 {["Sales", "Customer Success", "Strategy", "Expansion"].map(tag => (
